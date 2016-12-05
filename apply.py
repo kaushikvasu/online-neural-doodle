@@ -13,7 +13,7 @@ parser.add_argument('--colors', help='Array with color mapping.')
 parser.add_argument('--model', help='Path to model.t7.')
 parser.add_argument('--target_mask', help='Path to target mask.')
 parser.add_argument(
-    '--out_path', default='results/out.png', help='Where to store rendered image.')
+    '--out_path', default='results/out2.png', help='Where to store rendered image.')
 parser.add_argument(
     '--temp_hdf5', default='temp.hdf5', help='Where to temporary hdf5 file.')
 
