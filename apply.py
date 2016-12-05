@@ -7,6 +7,8 @@ import subprocess
 
 parser = argparse.ArgumentParser()
 
+'''Edit Out Path each time I run'''
+
 parser.add_argument('--colors', help='Array with color mapping.')
 parser.add_argument('--model', help='Path to model.t7.')
 parser.add_argument('--target_mask', help='Path to target mask.')
